@@ -1,13 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
     <title>Github Basic Commands Cheat Sheet</title>
+
 </head>
+
 <body>
-    <h1 style="text-align: center;">Github Basic Commands Cheat Sheet</h1>    
+
+    <div class="container">
+        <h1>Github Basic Commands Cheat Sheet</h1>
+        <p> Here are some basic github commands to get started with github. This Unofficial Documentation is created for
+            my personol future refernce. It will also be helpful for anyone want to learn the basics of github.</p>
+
+            <h3>Before starting download git from here => <a href="https://git-scm.com/downloads" target="_blank">download git</a></h3>
+
+
+            <h2>Global Username and User Email</h2>
+
+        <p>Set/Create or Config Global Username :</p>
+        <strong>
+            <pre><code>
+                <span>git config --global user.name "Your Username"</span>
+            </code></pre>
+        </strong>
+
+        <p>Change or Edit Global Username :</p>
+        <strong>
+            <pre><code>
+                <span>git config --global --edit user.name "Your Username"</span>
+            </code></pre>
+        </strong>
+
+        <p>Check the Global Username :</p>
+        <strong>
+            <pre><code>
+                <span>git config --global user.name</span>
+            </code></pre>
+        </strong>
+        <p>Set/Create or Config Global User Email :</p>
+        <strong>
+            <pre><code>
+                <span>git config --global user.name "Your Username"</span>
+            </code></pre>
+        </strong>
+
+        <p>Change or Edit Global User Email :</p>
+        <strong>
+            <pre><code>
+                <span>git config --global --edit user.name "Your Username"</span>
+            </code></pre>
+        </strong>
+
+        <p>Check the Global User Email :</p>
+        <strong>
+            <pre><code>
+                <span>git config --global user.name</span>
+            </code></pre>
+        </strong>
+        
+        
+        <h2>Git Init</h2>
+        <p>Git init command initialize an empty git repository </p>
+        <strong>
+            <pre><code>
+                <span>git init</span>
+            </code></pre>
+        </strong>
+
+
+        <h2>Git Status</h2>
+        <p>Git status command says the status of the git repository </p>
+        <strong>
+            <pre><code>
+                <span>git status</span>
+            </code></pre>
+        </strong>
+
+        <h2>Git Add</h2>
+        <p>Git add command adds the files of the git repository for staging</p>
+        <p>Staging area is basically a state of the repo what holds the state of git commitments</p>
+        <strong>
+            <pre><code>
+                <span>git add filename.extention</span>
+            </code></pre>
+        </strong>
+
+        <h2>Git Commit</h2>
+        <p>Git commit command commit the git repository that is stagged</p>
+        <strong>
+            <pre><code>
+                <span>git commit -m "Your Commit Massage"</span>
+            </code></pre>
+        </strong>
+
+
+
+
+    </div>
+
+    <footer style="height: 50px;">
+
+    </footer>
+
 </body>
+
 </html>
